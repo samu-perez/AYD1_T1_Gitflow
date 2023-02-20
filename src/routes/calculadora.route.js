@@ -3,6 +3,6 @@ const router = Router()
 
 const calculadoraController = require('../controllers/calculadora.controller')
 
-router.post('/calcular-suma', calculadoraController.calcularSuma)
+router.post('/calcular-multiplicacion', calculadoraController.calcularMultiplicacion)
 
 module.exports = router

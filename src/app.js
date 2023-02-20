@@ -13,7 +13,7 @@ app.use(cors())
 
 
 //Routes API
-//app.use(require('./routes/api'))
+app.use(require('./routes/info.route'))
 
 
 app.get('/', (req, res) => {

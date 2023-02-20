@@ -14,7 +14,7 @@ app.use(cors())
 
 //Routes API
 app.use(require('./routes/info.route'))
-
+app.use(require('./routes/calculadora.route'))
 
 app.get('/', (req, res) => {
     res.send('AYD1 Tarea 1 - Gitflow')
